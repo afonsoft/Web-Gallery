@@ -1,0 +1,10 @@
+﻿<asp:Label runat="server" CssClass ="col-form-label" />
+<asp:RadioButton runat="server" CssClass="form-check-input custom-control-input" />
+<asp:RadioButtonList runat="server" CssClass="form-check-input custom-control-input" />
+<asp:CheckBoxList runat="server" CssClass="form-check-input custom-control-input" />
+<asp:CheckBox runat="server" CssClass="form-check-input custom-control-input" />
+<asp:TextBox runat="server" CssClass="form-control form-control-sm" />
+<asp:DropDownList runat="server" CssClass="form-control form-control-sm selectpicker" />
+<asp:Button runat="server" CssClass="btn btn-sm btn-primary" />
+<asp:FileUpload CssClass="form-control-file custom-file-input" runat="server" />
+<asp:GridView runat="server" CssClass="gridview" PagerStyle-CssClass="gridview_pager"></asp:GridView>

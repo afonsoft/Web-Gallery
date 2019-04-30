@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterJS.Master" AutoEventWireup="true" CodeBehind="MasterMenuWithMasterJS.master.cs" Inherits="WebGallery.MasterMenuWithMasterJS" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderHead" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHeadMain" runat="server">
+        <!-- custom css -->
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderBody" runat="server">
+    <div class="ContentPlaceHolderMenu" id="DivContentPlaceHolderMenu">
+        <!-- custom menu -->
+    </div>
+    <br />
+    <div class="ContentPlaceHolderBody" id="DivContentPlaceHolderBody">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderBodyMain" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+</asp:Content>

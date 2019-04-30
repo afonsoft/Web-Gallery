@@ -1,0 +1,118 @@
+﻿.template {
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 10pt;
+    color: #000;
+}
+/*Template para o GridView CssClass="gridview*/
+.template table.gridview {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.template table.gridview th,
+.template table.gridview td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.template table.gridview th {
+    margin: 0;
+    padding: 6px;
+    font-weight: normal;
+    background-color: #EA1D1A;
+    border: 1px solid #D63634;
+    color: #FFF;
+    font-weight: normal;
+}
+
+.template table.gridview td {
+    margin: 0;
+    padding: 0px 3px 0px 3px;
+    line-height: 22px;
+    border: 1px dashed #DDD;
+    border-left: 1px dashed #DDD;
+    border-top: 0px;
+}
+
+.template th a:link,
+.template th a:visited,
+.template th a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.template td a:link,
+.template td a:visited {
+    color: #718ABE;
+    text-decoration: none;
+    padding-right: 6px;
+}
+
+.template td a:hover {
+    color: #718ABE;
+    text-decoration: underline !important;
+}
+
+.template tr {
+    margin: 0;
+    padding: 0;
+    transition: background 0.2s ease-in;
+}
+
+.template table.gridview tr:hover {
+    text-decoration: none;
+    color: #EA1D1A;
+}
+
+.template table.gridview tr:nth-child(odd) {
+    background: #F4F4F4;
+}
+
+.template table.gridview tr:hover td {
+    text-decoration: none;
+    color: #EA1D1A;
+}
+
+/*Template para paginação gridview_pager PagerStyle-CssClass="gridview_pager" */
+.template .gridview_pager {
+    background-color: #FFF;
+    border-collapse: collapse;
+    border: 1px dashed #DDD;
+}
+
+.template .gridview_pager td {
+    line-height: 25px;
+    background-color: #FFF;
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+    color: #333;
+    font-weight: bold;
+}
+
+.template .gridview_pager td table {
+    border: 0;
+    margin: 2px;
+    padding: 1px;
+    border-collapse: collapse;
+}
+
+.template .gridview_pager td table tr {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.template .gridview_pager td table tr td {
+    border: 0;
+}
+
+.template .gridview_pager td table tr td span {
+    color: #EA1D1A;
+    text-decoration: none;
+    padding-right: 6px;
+}
