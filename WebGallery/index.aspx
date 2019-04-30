@@ -27,13 +27,13 @@
         }
 
             .gallery a img {
-                opacity: 0.6;
-                filter: alpha(opacity=60); /* For IE8 and earlier */
+                opacity: 0.7;
+                filter: alpha(opacity=70); /* For IE8 and earlier */
             }
 
                 .gallery a img:hover {
-                    opacity: 0.9;
-                    filter: alpha(opacity=90); /* For IE8 and earlier */
+                    opacity: 1;
+                    filter: alpha(opacity=100); /* For IE8 and earlier */
                 }
     </style>
 </asp:Content>
@@ -42,8 +42,8 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <h2>Galeria de fotos</h2>
+            <div class="col" style="color: red;">
+                <h1>Galeria de fotos</h1>
             </div>
         </div>
 
