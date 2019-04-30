@@ -16,14 +16,14 @@
             width: 100%;
             height: 100%;
             position: fixed;
-            left: 0px;
-            top: 0px;
+            left: 0;
+            top: 0;
             z-index: -1;
         }
 
         .gallery {
-            margin: 5px;
-            padding: 5px;
+            margin: 12px;
+            padding: 12px;
         }
 
             .gallery a img {
