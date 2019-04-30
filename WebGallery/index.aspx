@@ -35,6 +35,17 @@
                     opacity: 1;
                     filter: alpha(opacity=100); /* For IE8 and earlier */
                 }
+        .thumbnail > img {
+            width: 200px;
+            height: 200px; /* force image's height */
+
+            /* force image fit inside it's "box" */
+            -webkit-object-fit: cover;
+            -moz-object-fit: cover;
+            -ms-object-fit: cover;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderBody" runat="server">
@@ -55,14 +66,14 @@
             <ItemTemplate>
                 <asp:Repeater ID="RepeaterPicture" runat="server" DataSource='<%# Eval("Images") %>'>
                     <ItemTemplate>
-                        <a href='<%# Eval("Image") %>' title='<%# Eval("Name") %>'>
-                            <img src='<%# Eval("Image") %>' width="200px" height="200px" class="rounded img-thumbnail" alt='<%# Eval("Name") %>'>
-                        </a>
+                            <a href='<%# Eval("Image") %>' title='<%# Eval("Name") %>' class = "thumbnail">
+                                <img src='<%# Eval("Image") %>' width="200" height="200" class="rounded img-thumbnail" alt='<%# Eval("Name") %>'>
+                            </a>
                     </ItemTemplate>
                 </asp:Repeater>
             </ItemTemplate>
             <FooterTemplate>
-                    </div>
+                </div>
                 </div>
             </FooterTemplate>
         </asp:Repeater>
